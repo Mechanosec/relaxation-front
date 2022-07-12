@@ -121,12 +121,13 @@
 .recent_posts_block ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .recent_posts_item {
   position: relative;
-  width: 418px;
+  width: 48%;
   height: 295px;
   margin-bottom: 50px;
 
