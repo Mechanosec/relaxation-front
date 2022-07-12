@@ -35,7 +35,7 @@
 .about_block {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 
   margin-bottom: 80px;
 }
