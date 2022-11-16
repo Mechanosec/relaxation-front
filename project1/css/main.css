@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fdfcef;
+  font-family: "Montserrat";
+}
+
+header {
+  margin-bottom: 82px;
+}
+.logo {
+  margin-top: 63px;
+  margin-left: 245px;
+
+  display: flex;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+.logo img {
+  margin-right: 10px;
+}
+
+.information {
+  width: 1110px;
+
+  margin: 0 auto 120px;
+  display: flex;
+}
+.information-content {
+  width: 465px;
+  margin-right: 180px;
+}
+.information-content h1 {
+  margin-bottom: 30px;
+
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 140%;
+}
+.information-content p {
+  margin-bottom: 30px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 136.7%;
+}
+.information-content a {
+  width: 227px;
+  height: 69px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 136.7%;
+  color: #ffffff;
+
+  text-decoration: none;
+
+  background: #ff6861;
+  border-radius: 100px;
+}
+.information-logo {
+  width: 465px;
+  height: 465px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(180deg, #ffe195 0%, #ff5b5b 100%);
+  border-radius: 70px;
+}
+
+.description {
+  width: 720px;
+
+  margin: 0 auto 120px;
+}
+.description > h2 {
+  margin-bottom: 70px;
+  text-align: center;
+}
+.description-item {
+  display: flex;
+
+  margin-bottom: 46px;
+}
+.description-item img {
+  margin-right: 34px;
+}
+
+.market {
+  width: 1110px;
+
+  margin: 0 auto 60px;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  background: linear-gradient(102deg, #fff6df 17.38%, #ffdfde 81.25%);
+  border-radius: 60px;
+}
+.market-content {
+  width: 475px;
+  margin-right: 100px;
+}
+.market-content h2 {
+  margin-bottom: 24px;
+
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+}
+.market-content p {
+  margin-bottom: 24px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 136.7%;
+}
+.market-content a {
+  width: 227px;
+  height: 69px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 136.7%;
+  color: #ffffff;
+  text-decoration: none;
+
+  background: #ff6861;
+  border-radius: 100px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
