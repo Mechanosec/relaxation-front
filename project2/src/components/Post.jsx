@@ -1,3 +1,5 @@
+import MyButton from "./UI/button/MyButton";
+
 const Post = ({ post }) => {
   return (
     <div className="post">
@@ -8,7 +10,7 @@ const Post = ({ post }) => {
         <p>{post.body}</p>
       </div>
       <div className="post_btns">
-        <button>delete</button>
+        <MyButton>delete</MyButton>
       </div>
     </div>
   );
