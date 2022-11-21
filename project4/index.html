@@ -10,31 +10,69 @@
       type="text/css"
     />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/content.css" />
     <title>Project 3</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="#">
-          <img src="./img/logo.png" alt="logo" />
-          <span>Womazing</span>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a href="#" class="main-logo">
+          <div class="main-logo__img">
+            <img src="./img/logo.png" alt="logo" />
+          </div>
+          <span class="main-logo__title">Womazing</span>
         </a>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Cart</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="site-navigation">
+          <li class="site-navigation__item">
+            <a class="site-navigation__item-link" href="#">Home</a>
+          </li>
+          <li class="site-navigation__item">
+            <a class="site-navigation__item-link" href="#">Cart</a>
+          </li>
+          <li class="site-navigation__item">
+            <a class="site-navigation__item-link" href="#">About</a>
+          </li>
+          <li class="site-navigation__item">
+            <a class="site-navigation__item-link" href="#">Contacts</a>
+          </li>
         </ul>
-        <div>
-          <img src="./img/phone.png" alt="phone" />
-          <span>+380 (95) 186-50-88</span>
+        <div class="main-contact">
+          <div class="main-contact__logo">
+            <img src="./img/phone.png" alt="phone" />
+          </div>
+          <span class="main-contact__phone">+380 (95) 186-50-88</span>
         </div>
-        <a href="#">
+        <a class="cart" href="#">
           <img src="./img/cart.png" alt="cart" />
         </a>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section class="information">
+        <div class="information__content">
+          <h1>Новые поступления в этом сезоне</h1>
+          <p>
+            Утонченные сочетания и бархатные оттенки - вот то, что вы искали в
+            этом сезоне. Время исследовать.
+          </p>
+          <a class="information__cart" href="#">
+            <div class="information__cart-arrow">
+              <img src="./img/arrow_down.png" alt="arrow_down" />
+            </div>
+            <span class="information__cart-text">Открыть магазин</span>
+          </a>
+        </div>
+        <div class="information__images">
+          <div class="information__images-background"></div>
+          <img
+            class="information__fashion1"
+            src="./img/fashion1.png"
+            alt="fashion1"
+          />
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>

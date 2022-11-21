@@ -1,0 +1,58 @@
+.main-header {
+  margin: 51px 180px 45px 180px;
+}
+
+.main-navigation {
+  display: flex;
+}
+
+.main-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 146px;
+  text-decoration: none;
+}
+.main-logo__img {
+  margin-right: 14.5px;
+}
+.main-logo__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.site-navigation {
+  display: flex;
+  align-items: center;
+  margin-right: 176px;
+}
+.site-navigation__item {
+  display: inline;
+  margin-right: 45px;
+}
+.site-navigation__item:last-child {
+  margin-right: 0;
+}
+.site-navigation__item-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.site-navigation__item-link:hover {
+  color: #6e9c9f;
+}
+
+.main-contact {
+  display: flex;
+  align-items: center;
+  margin-right: 67px;
+}
+.main-contact__logo {
+  margin-right: 24px;
+}

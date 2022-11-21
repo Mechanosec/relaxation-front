@@ -1,0 +1,65 @@
+.information {
+  display: flex;
+  margin-left: 180px;
+}
+.information__content {
+  width: 563px;
+  margin: auto 115px;
+  margin-left: 0;
+}
+.information__content h1 {
+  margin-bottom: 45px;
+
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 61px;
+  letter-spacing: 0.02em;
+}
+.information__content p {
+  width: 385px;
+
+  margin-bottom: 45px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: right;
+  letter-spacing: 0.02em;
+}
+.information__cart {
+  display: flex;
+  text-decoration: none;
+}
+.information__cart-arrow {
+  width: 67px;
+  height: 67px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(110, 156, 159, 0.1);
+}
+.information__cart-text {
+  width: 243px;
+  height: 68px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  background: #6e9c9f;
+}
+.information__images-background {
+  width: 705px;
+  height: 826px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background: #f1eadc;
+}
+.information__fashion1 {
+  position: relative;
+}
