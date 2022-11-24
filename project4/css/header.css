@@ -1,9 +1,12 @@
 .main-header {
-  margin: 51px 180px 45px 180px;
+  width: 1110px;
+  margin: auto;
+  margin-bottom: 45px;
 }
 
 .main-navigation {
   display: flex;
+  justify-content: space-between;
 }
 
 .main-logo {
@@ -28,9 +31,10 @@
   display: flex;
   align-items: center;
   margin-right: 176px;
+
+  list-style: none;
 }
 .site-navigation__item {
-  display: inline;
   margin-right: 45px;
 }
 .site-navigation__item:last-child {
@@ -40,7 +44,7 @@
   text-decoration: none;
   font-weight: 700;
   font-size: 15px;
-  line-height: 140%;
+  line-height: 21px;
   letter-spacing: 0.02em;
   color: #000000;
 }
@@ -52,7 +56,4 @@
   display: flex;
   align-items: center;
   margin-right: 67px;
-}
-.main-contact__logo {
-  margin-right: 24px;
 }
