@@ -1,0 +1,41 @@
+@media (max-width: 900px) {
+  * {
+    margin: 3px;
+  }
+
+  .information__img {
+    display: none;
+  }
+
+  .market__img {
+    display: none;
+  }
+}
+
+@media (max-width: 840px) {
+  * {
+    margin: 4px;
+  }
+
+  .logo {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .information__block {
+    justify-content: center;
+    text-align: center;
+  }
+  .information__content {
+    align-items: center;
+  }
+
+  .market__block {
+    justify-content: center;
+    text-align: center;
+    padding: 60px 0;
+  }
+  .market__content {
+    align-items: center;
+  }
+}

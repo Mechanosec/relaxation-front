@@ -1,0 +1,19 @@
+.main-header {
+  margin-top: 63px;
+  margin-bottom: 82px;
+}
+
+.logo {
+  display: flex;
+}
+.logo__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.logo__title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}

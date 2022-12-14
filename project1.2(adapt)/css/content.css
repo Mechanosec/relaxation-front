@@ -1,0 +1,154 @@
+.information {
+  margin-bottom: 120px;
+}
+.information__block {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.information__content {
+  width: 465px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.information__title {
+  margin-bottom: 30px;
+
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+}
+.information__description {
+  margin-bottom: 30px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+.information__link {
+  width: 227px;
+  height: 69px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  background: #ff6861;
+  border-radius: 100px;
+}
+.information__img {
+  width: 465px;
+  height: 465px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(180deg, #ffe195 0%, #ff5b5b 100%);
+  border-radius: 70px;
+}
+.information__img img {
+  max-width: 100%;
+}
+
+.description {
+  margin-bottom: 122px;
+}
+.description__block {
+  max-width: 720px;
+  margin: auto;
+}
+.description__title {
+  margin-bottom: 70px;
+
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+}
+.description__items {
+  list-style: none;
+}
+.description__item {
+  display: flex;
+  margin-bottom: 46px;
+}
+.description__item :last-child {
+  margin-bottom: 0;
+}
+.description__item-img {
+  margin-right: 34px;
+}
+.description__item-img img {
+  max-width: 100%;
+}
+.description__item-content {
+  max-width: 615px;
+}
+.description__item-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+}
+.description__item-description {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.market {
+  margin-bottom: 120px;
+}
+.market__block {
+  display: flex;
+  padding: 100px 0;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  background: linear-gradient(102deg, #fff6df 17.38%, #ffdfde 81.25%);
+  border-radius: 60px;
+}
+.market__content {
+  max-width: 475px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.market__title {
+  margin-bottom: 24px;
+
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+}
+.market__description {
+  margin-bottom: 24px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+.market__link {
+  width: 227px;
+  height: 69px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  background: #ff6861;
+  border-radius: 100px;
+}
