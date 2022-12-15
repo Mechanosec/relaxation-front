@@ -1,6 +1,14 @@
-@media (max-width: 900px) {
+@media (max-width: 930px) {
   * {
     margin: 3px;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .information__block {
+    justify-content: center;
   }
 
   .information__img {
